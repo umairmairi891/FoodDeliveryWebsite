@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.hero_animation{
+    animation:hero 2s linear ;
+}
+
+@keyframes hero {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+.signup_animation{
+    animation: signup_animation 1s linear ;
+}
+
+@keyframes signup_animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
