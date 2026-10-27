@@ -87,7 +87,7 @@ function Menu({ cart }) {
                             {filteredMenu.map((m) => {
                                 const itemsinCart = cart.find(item=>item.id===m.id)
 
-                                return <div className="bg-white h-100  hero_animation hover:-translate-y-2 duration-200 cursor-pointer  rounded-xl overflow-hidden shadow-xl">
+                                return <div className="bg-white h-90  hero_animation hover:-translate-y-2 duration-200 cursor-pointer  rounded-xl overflow-hidden shadow-xl">
                                     <div className="relative">
                                         <img src={m.img} className='object-cover' alt="" />
                                         <div className="absolute bottom-3 right-3 shadow-md rounded-full overflow-hidden">
